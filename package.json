@@ -3,6 +3,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "dev1": "cross-env NODE_OPTIONS='--inspect' next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start"
@@ -15,6 +16,7 @@
     "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
     "clsx": "^2.0.0",
+    "cross-env": "^7.0.3",
     "next": "^14.0.2",
     "postcss": "8.4.31",
     "react": "18.2.0",
